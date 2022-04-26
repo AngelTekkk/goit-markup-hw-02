@@ -22,6 +22,7 @@ a {
 }
 
 .button {
+    font-family: inherit;
     font-weight: 500;
     line-height: 1.62;
     text-align: center;
@@ -29,15 +30,18 @@ a {
     background-color: #F5F4FA;
     color: var(--title-color);
     cursor: pointer;
+    border: none;
 }
 
 .hero {
+    font-family: inherit;
     font-weight: 700;
     line-height: 1.88;
     text-align: center;
     letter-spacing: 0.06em;
     background-color: var(--brand-color);
     color: var(--white-color);
+    border: none;
 }
 
 .button:hover,
@@ -69,11 +73,7 @@ a {
     font-weight: 500;
     line-height: 1.15;
     letter-spacing: 0.02em;
-}
-
-.link-header:hover,
-.link-header:focus {
-    color: var(--brand-color);
+    color: var(--title-color);
 }
 
 .contacts-header {
@@ -93,11 +93,18 @@ a {
 .contacts-header:hover,
 .contacts-header:focus,
 .contacts-footer:hover,
-.contacts-footer:focus {
+.contacts-footer:focus,
+.link-header:hover,
+.link-header:focus,
+.current {
     color: var(--brand-color);
 }
 
 .address {
+    list-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
     color: var(--white-color);
 }
 
@@ -115,7 +122,7 @@ a {
     color: var(--white-color);
 }
 
-.title-general {
+.section-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
