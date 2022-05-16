@@ -21,6 +21,10 @@ a {
     color: inherit;
 }
 
+address {
+    font-style: normal;
+}
+
 .button {
     font-family: inherit;
     font-weight: 500;
@@ -31,6 +35,11 @@ a {
     color: var(--title-color);
     cursor: pointer;
     border: none;
+}
+
+.button.current {
+    background-color: var(--brand-color);
+    color: var(--white-color);
 }
 
 .hero {
@@ -156,6 +165,7 @@ a {
 }
 
 .team h3 {
+    font-size: 16px;
     font-weight: 500;
     color: var(--title-color);
 }
